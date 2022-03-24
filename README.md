@@ -1,2 +1,2 @@
 # M1_Calculator
-Designing of simple calculator along with short cuts for the aptitude questions to solove in shortly  
+A calculator is used for computing advanced functions in mathematics, science, and engineering aptitude. Explore the uses and special buttons of a calculator, and learn to evaluate expressions in a calculator through examples. 
