@@ -10,11 +10,11 @@ else
 	endif
 endif
 
-Build : $(SRC)
-	gcc $(SRC) -Iinc -Iunity -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+Build : 
+	gcc calculator.c
 
-Run : Build
-	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+Run : 
+	./a.out
 
 static_analysis:
 	cppcheck --enable=all $(SRC)
