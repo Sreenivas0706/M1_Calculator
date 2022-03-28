@@ -201,12 +201,12 @@ float res;
 		}
 		else
 		exit(0);
-	/*while (option != 19);  
+	while (option != 19);  
      #else
      test_main();
      #endif 
   
-    return 0;*/        
+    return 0;        
 }
 			
 }
