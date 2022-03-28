@@ -9,8 +9,8 @@
  * 
  */
 
-#ifndef add_num.h
-#define add_num.h
+#ifndef add_num_h_
+#define add_num_h_
 #include <stdio.h>
 #include<math.h>
 int n1();

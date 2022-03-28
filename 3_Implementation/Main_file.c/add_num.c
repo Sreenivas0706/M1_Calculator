@@ -1,10 +1,34 @@
-#include "add_num.h"
-extern void test_main();
+/**
+ * @file add_num.c
+ * @author sreenivas (viswanadhamsreenivas76@gmail.com.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-28
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 
-int main()  
-{  
-   #if 0 
-    	    printf (" Choose an operator(+, -, *, /) to perform the operation in C Calculator \n");
+#include "calculator.h"
+#include "stdlib.h"
+int main()
+{
+	#if 0
+	
+char opt;  
+int n1, n2,i,d,d1,m1,y1,d2,m2,y2,r1,r2,r3,numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;   
+float res; 
+	    label1:
+	//system("color 1b");
+		printf("\n\n\n SIMPLE CALCULATOR / APPITUDE CALCULATOR FOR (TIME AND WORK / Age calculator)");
+		printf("\n---------------------------------------------------------------------------");
+		printf("\n press 1: If you press 1 you can able to perform normal calculations \n");
+		printf("\n Press 2: If you press 2 you can able to perform Time and work calculations \n");
+		printf("\n press 3: If you press 3 you can able to perform Age calculations:\n");
+		scanf("%d",&i);
+	 if(i==1)
+	 { 
+	    printf (" Choose an operator(+, -, *, /) to perform the operation in C Calculator \n");
 		  
 	    scanf ("%s", &opt);
 		 
@@ -85,9 +109,8 @@ int main()
 			else if(i==2)
 		{
 			lable2:
-				system("color 2b");
+	//			system("color 2b");
 				
-//	 int numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;
 	   printf("Enter the denominator for 1st number : ");
 	    scanf("%d",&denominator1);
 	  
@@ -123,7 +146,7 @@ int main()
 				else if(i==3)
 		{
 			lable3:
-				system("color 3b");	
+			//	system("color 3b");	
 //	int d1,m1,y1,d2,m2,y2,r1,r2,r3;
 	printf("Enter your birth day\n");
 	scanf("%d",&d1);
@@ -168,7 +191,7 @@ int main()
 	}
 	printf("your age is %d year %d month %d day",r3,r2,r1);
 }
-printf("\n press 1: For Home \n Press any key to stop executing \nPress any key to stop the execution\n");
+ printf("\n press 1: For Home \n Press any key to stop executing \n");
 	 scanf("%d",&d);
 			if(d==1)
 			{
@@ -177,22 +200,12 @@ printf("\n press 1: For Home \n Press any key to stop executing \nPress any key 
 				label1;
 		}
 		else
-		exit(0);
-	/*	else if(d==2)
-			{
-				goto
-				lable2;
-			}
-			else if(d==2)
-			{
-				goto 
-				lable3;
-			}*/
-			
-}
+		exit(0);while (option != 19);  
      #else
      test_main();
      #endif 
   
     return 0;        
+}
+			
 }
