@@ -100,7 +100,6 @@ float res;
 			lable2:
 	//			system("color 2b");
 				
-//	 int numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;
 	   printf("Enter the denominator for 1st number : ");
 	    scanf("%d",&denominator1);
 	  
@@ -137,7 +136,6 @@ float res;
 		{
 			lable3:
 			//	system("color 3b");	
-//	int d1,m1,y1,d2,m2,y2,r1,r2,r3;
 	printf("Enter your birth day\n");
 	scanf("%d",&d1);
 	printf("Enter your birth month\n");
