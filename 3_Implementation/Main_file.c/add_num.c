@@ -11,6 +11,7 @@
 
 #include "add_num_h_"
 #include "stdlib.h"
+extern void test_main();
 int main()
 {
 	//#if 0
