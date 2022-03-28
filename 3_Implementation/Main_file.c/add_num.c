@@ -1,24 +1,24 @@
 /**
- * @file project main_file.c
- * @author eenivas (viswanadhamsreenivas76@gmail.com)
+ * @file add_num.c
+ * @author sreenivas (viswanadhamsreenivas76@gmail.com.com)
  * @brief 
  * @version 0.1
- * @date 2022-03-04
+ * @date 2022-03-28
  * 
  * @copyright Copyright (c) 2022
  * 
  */
 
-#include "add_num.h"
-extern void test_main();
-
+#include "calculator.h"
+#include "stdlib.h"
 int main()
 {
+	
 char opt;  
 int n1, n2,i,d,d1,m1,y1,d2,m2,y2,r1,r2,r3,numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;   
 float res; 
 	    label1:
-		system("color 1b");
+	//system("color 1b");
 		printf("\n\n\n SIMPLE CALCULATOR / APPITUDE CALCULATOR FOR (TIME AND WORK / Age calculator)");
 		printf("\n---------------------------------------------------------------------------");
 		printf("\n press 1: If you press 1 you can able to perform normal calculations \n");
@@ -108,7 +108,9 @@ float res;
 			else if(i==2)
 		{
 			lable2:
-			system("color 2b");
+	//			system("color 2b");
+				
+//	 int numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;
 	   printf("Enter the denominator for 1st number : ");
 	    scanf("%d",&denominator1);
 	  
@@ -144,7 +146,8 @@ float res;
 				else if(i==3)
 		{
 			lable3:
-				system("color 4b");	
+			//	system("color 3b");	
+//	int d1,m1,y1,d2,m2,y2,r1,r2,r3;
 	printf("Enter your birth day\n");
 	scanf("%d",&d1);
 	printf("Enter your birth month\n");
@@ -188,7 +191,7 @@ float res;
 	}
 	printf("your age is %d year %d month %d day",r3,r2,r1);
 }
-printf("\n press 1: For Home \n Press any key to stop executing \nPress any key to stop the execution\n");
+ printf("\n press 1: For Home \n Press any key to stop executing \n");
 	 scanf("%d",&d);
 			if(d==1)
 			{
