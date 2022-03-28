@@ -13,6 +13,7 @@
 #include "stdlib.h"
 int main()
 {
+	#if 0
 	
 char opt;  
 int n1, n2,i,d,d1,m1,y1,d2,m2,y2,r1,r2,r3,numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;   
@@ -110,7 +111,6 @@ float res;
 			lable2:
 	//			system("color 2b");
 				
-//	 int numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;
 	   printf("Enter the denominator for 1st number : ");
 	    scanf("%d",&denominator1);
 	  
@@ -200,6 +200,12 @@ float res;
 				label1;
 		}
 		else
-		exit(0);
+		exit(0);while (option != 19);  
+     #else
+     test_main();
+     #endif 
+  
+    return 0;        
+}
 			
 }
