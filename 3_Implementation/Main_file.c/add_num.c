@@ -14,7 +14,7 @@
 extern void test_main();
 int main()
 {
-	//#if 0
+	#if 0
 	
 char opt;  
 int n1, n2,i,d,d1,m1,y1,d2,m2,y2,r1,r2,r3,numerator1=1, denominator1, numerator2=1, denominator2, x, y, c, gcd_no;   
