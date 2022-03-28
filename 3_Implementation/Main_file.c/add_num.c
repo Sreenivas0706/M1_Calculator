@@ -1,3 +1,14 @@
+/**
+ * @file project main_file.c
+ * @author eenivas (viswanadhamsreenivas76@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-03-04
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
+
 #include "add_num.h"
 extern void test_main();
 
