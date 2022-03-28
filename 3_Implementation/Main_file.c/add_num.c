@@ -3,7 +3,7 @@ extern void test_main();
 
 int main()  
 {  
-   #if 0 
+ //  #if 0 
     	    printf (" Choose an operator(+, -, *, /) to perform the operation in C Calculator \n");
 		  
 	    scanf ("%s", &opt);
