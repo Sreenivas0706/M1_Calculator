@@ -12,6 +12,7 @@
 #ifndef add_num_h_
 #define add_num_h_
 #include <stdio.h>
+#include<time.h>
 #include<math.h>
 int n1();
 int n2();
